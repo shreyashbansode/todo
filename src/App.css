@@ -1,0 +1,179 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+.chatbox{
+  border: 2px solid gray; 
+  border-radius:5px;
+  margin: 5px 0;
+
+  padding: 10px;
+  background-color:bisque;
+  
+ 
+}
+
+.me .chatbox{
+  background-color:cadetblue;
+ 
+  
+}
+.container{
+  display:flex;
+
+}
+
+
+ .me{
+  flex-direction: row-reverse;
+ 
+}
+
+.btm{
+    
+
+      position:absolute;
+      
+      width:50%;
+      margin: 10px 250px;
+      height:8vh;
+      left: 21%;
+      bottom:2px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100px 100px;
+      background: -webkit-linear-gradient(330deg, rgb(103, 101, 101), #f0a6ca);
+  background: linear-gradient(120deg, rgb(105, 104, 104), #f0a6ca);
+
+
+}
+
+.btm input{
+  padding:10px 0 ;
+  flex-grow: 1;
+  text-align: center;
+  width: 88%;
+  border-radius: 10px 10px 10px 10px;
+
+
+}
+
+.btm button{
+  /* padding: 20px 30px; */
+}
+
+.chat-container{
+  height: 100vh;
+  overflow-y: scroll;
+  
+  
+}
+
+
+.btn-primary{
+
+background-color:rgba(128, 128, 128, 0.405);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+
+
+}
+
+.btn-primary button{
+  border-radius:50px;
+  width: 250px;
+  height:50px;
+  color:black;
+  font-weight:25px;
+  background-color:white;
+
+}
+
+
+.btn-primary button:hover{
+  background-color:coral;
+  color:white;
+  
+}
+
+
+
+.user{
+
+    /* margin-top:150px; */
+    background: rgba(255, 255, 255, 0.1);
+  
+    /* float: right; */
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    background: rgba(255, 255, 255, 0.1);
+    width: 40%;
+    height: 100%;
+    float: right;
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+
+}
+
+.user h3{
+  text-align: center;
+  /* line-height:150px; */
+  color: aliceblue;
+  
+  
+  font-size:20px;
+}
+
+.user h2{
+  color:white;
+  text-align: center;
+}
+.main-container{
+  background: -webkit-linear-gradient(330deg, #000, #f0a6ca);
+  background: linear-gradient(120deg, #000, #f0a6ca);
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+.d_flex{
+ display: flex;
+ flex-direction: row;
+height:82vh;
+      /* height:0vh; */
+  
+}
+
+
+
+
+.nestedbx{
+  
+width: 95%;
+
+
+
+}
+
+.sendbtn{
+  margin: 0 2px;
+}
+
+.chat-container{
+  height:80vh;
+  width:100%
+}
+
+.nestedbx button{
+  margin-left: 5px;
+  border-radius:10px
+}
+
+
+
